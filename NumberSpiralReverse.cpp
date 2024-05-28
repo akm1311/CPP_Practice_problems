@@ -11,7 +11,8 @@ int main(){
             int b=j;
             if(a>n) a=2*n-i;
             if(b>n) b=2*n-j;
-            cout<<min(a,b);
+            int f=min(a,b);
+            cout<<n-f+1;
 
         }
         cout<<endl;
